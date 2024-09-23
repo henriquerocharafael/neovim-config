@@ -81,3 +81,6 @@ vim.opt.expandtab = true
 
 -- Set completeopt to have a better completion experience (default: 'menu,preview')
 vim.o.completeopt = 'menuone,noselect'
+
+-- display lines as one long line
+vim.opt.wrap = false
